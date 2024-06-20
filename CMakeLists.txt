@@ -23,8 +23,8 @@ set(CMAKE_CXX_FLAGS "-Wall -Wextra -Werror -Wfatal-errors -Wshadow -pedantic")
 # - Add the MPAGSCipher subdirectory to the build
 add_subdirectory(MPAGSCipher)
 
-# - Add the Documentation subdirectory to the build
-add_subdirectory(Documentation)
+# - Add the doc_src subdirectory to the build
+add_subdirectory(doc_src)
 
 # - Enable testing and add the Testing subdirectory to the build
 enable_testing()

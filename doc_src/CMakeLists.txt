@@ -1,4 +1,4 @@
-# - CMake buildscript for Documentation subdirectory
+# - CMake buildscript for doc_src subdirectory
 
 # - Doxygen documentation
 # Find an install of Doxygen (we're not too fussy about the version) using CMake's find_package command
