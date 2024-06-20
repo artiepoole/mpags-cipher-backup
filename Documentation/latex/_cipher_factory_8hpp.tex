@@ -1,0 +1,44 @@
+\hypertarget{_cipher_factory_8hpp}{}\doxysection{Cipher\+Factory.\+hpp File Reference}
+\label{_cipher_factory_8hpp}\index{CipherFactory.hpp@{CipherFactory.hpp}}
+
+
+Contains the declaration of the factory function for creating \mbox{\hyperlink{class_cipher}{Cipher}} objects.  
+
+
+{\ttfamily \#include $<$memory$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include \char`\"{}Cipher.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Cipher\+Type.\+hpp\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{class_cipher}{Cipher}} $>$ \mbox{\hyperlink{_cipher_factory_8hpp_a58dc798755cc2d37c965f3c2ef754e1c}{cipher\+Factory}} (const \mbox{\hyperlink{_cipher_type_8hpp_aa1792f73cc3a05b7816d502879582348}{Cipher\+Type}} type, const std\+::string \&key)
+\begin{DoxyCompactList}\small\item\em Create a \mbox{\hyperlink{class_cipher}{Cipher}} object of the concrete type specified, constructed from the supplied key. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Contains the declaration of the factory function for creating \mbox{\hyperlink{class_cipher}{Cipher}} objects. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_cipher_factory_8hpp_a58dc798755cc2d37c965f3c2ef754e1c}\label{_cipher_factory_8hpp_a58dc798755cc2d37c965f3c2ef754e1c}} 
+\index{CipherFactory.hpp@{CipherFactory.hpp}!cipherFactory@{cipherFactory}}
+\index{cipherFactory@{cipherFactory}!CipherFactory.hpp@{CipherFactory.hpp}}
+\doxysubsubsection{\texorpdfstring{cipherFactory()}{cipherFactory()}}
+{\footnotesize\ttfamily std\+::unique\+\_\+ptr$<$\mbox{\hyperlink{class_cipher}{Cipher}}$>$ cipher\+Factory (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{_cipher_type_8hpp_aa1792f73cc3a05b7816d502879582348}{Cipher\+Type}}}]{type,  }\item[{const std\+::string \&}]{key }\end{DoxyParamCaption})}
+
+
+
+Create a \mbox{\hyperlink{class_cipher}{Cipher}} object of the concrete type specified, constructed from the supplied key. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & the concrete type of of cipher to be constructed \\
+\hline
+{\em key} & the key with which to construct the cipher \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the newly constructed cipher 
+\end{DoxyReturn}
