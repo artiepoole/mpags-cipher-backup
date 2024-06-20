@@ -1,3 +1,6 @@
+# This is publically available backup 
+This is a backup of files from a taught postgraduate course in C++ provided by the Midland Physics Alliance Graduate School (MPAGS) 
+
 # mpags-cipher
 A simple command line tool for encrypting/decrypting text using classical ciphers
 
